@@ -1,0 +1,58 @@
+/* Write your code here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.review {
+  color: #ffffff;
+  margin: 20px;
+}
+
+.username {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+.companyName {
+  color: #171f46;
+  margin: 20px;
+}
+
+.description {
+  color: #171f46;
+  margin: 20px;
+  text-align: center;
+}
